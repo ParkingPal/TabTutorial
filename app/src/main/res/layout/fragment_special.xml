@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".specialFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="936dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FFEB3B"
+        android:gravity="center"
+        android:text="SPECIALTIES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuffalo"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#E9D5B6"
+        android:text="Buffalo"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnSampler"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Sampler"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuffalo" />
+
+    <Button
+        android:id="@+id/btnBlt"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Blt"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSampler" />
+
+    <Button
+        android:id="@+id/btnDeluxe"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Deluxe"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBlt" />
+
+    <Button
+        android:id="@+id/btnBbq"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#E9D5B6"
+        android:text="Bbq"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBuffalo"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnVeggie"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Veggie"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnSampler"
+        app:layout_constraintTop_toBottomOf="@+id/btnBbq" />
+
+    <Button
+        android:id="@+id/btnLbp"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Lbp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBlt"
+        app:layout_constraintTop_toBottomOf="@+id/btnVeggie" />
+
+    <Button
+        android:id="@+id/btnDbc"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Dbc"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDeluxe"
+        app:layout_constraintTop_toBottomOf="@+id/btnLbp" />
+
+    <Button
+        android:id="@+id/btnCbr"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#E9D5B6"
+        android:text="Cbr"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBbq"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnChsbgr"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#E9D5B6"
+        android:text="Chsbgr"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnCbr"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnMeatmkt"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Meatmkt"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnVeggie"
+        app:layout_constraintTop_toBottomOf="@+id/btnCbr" />
+
+    <Button
+        android:id="@+id/btnTaco"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Taco"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnMeatmkt"
+        app:layout_constraintTop_toBottomOf="@+id/btnChsbgr" />
+
+    <Button
+        android:id="@+id/btnTorch"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Torch"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnLbp"
+        app:layout_constraintTop_toBottomOf="@+id/btnMeatmkt" />
+
+    <Button
+        android:id="@+id/btnSicilian"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Sicilian"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnTorch"
+        app:layout_constraintTop_toBottomOf="@+id/btnTaco" />
+
+    <Button
+        android:id="@+id/btnFiesta"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Fiesta"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDbc"
+        app:layout_constraintTop_toBottomOf="@+id/btnTorch" />
+
+    <Button
+        android:id="@+id/btnSuperoni"
+        android:layout_width="222dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#E9D5B6"
+        android:text="Superoni"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnFiesta"
+        app:layout_constraintTop_toBottomOf="@+id/btnSicilian" />
+
+</android.support.constraint.ConstraintLayout>

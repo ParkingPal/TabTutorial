@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".miscFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="946dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#80FFEB3B"
+        android:gravity="center"
+        android:text="MISCELLANEOUS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheesestick"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#DED7EB"
+        android:text="Cheesestick"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnMacncheese"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#A483E0"
+        android:text="Macncheese"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnCheesestick"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnPwedges"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#DED7EB"
+        android:text="Pwedges"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnMacncheese"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnBreadstick"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#DED7EB"
+        android:text="Breadstick"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnPwedges"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnChocolate"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:background="#CEA66E"
+        android:text="Chocolate"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheesestick" />
+
+    <Button
+        android:id="@+id/btnCinnamon"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3E7D8"
+        android:text="Cinnamon"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChocolate" />
+
+    <Button
+        android:id="@+id/btnSmores"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3E7D8"
+        android:text="Smores"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnCinnamon"
+        app:layout_constraintTop_toBottomOf="@+id/btnChocolate" />
+
+    <Button
+        android:id="@+id/btnApplecin"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3E7D8"
+        android:text="Applecin"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnSmores"
+        app:layout_constraintTop_toBottomOf="@+id/btnSprinkle" />
+
+    <Button
+        android:id="@+id/btnPineapple"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3E7D8"
+        android:text="Pineapple"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnApplecin"
+        app:layout_constraintTop_toBottomOf="@+id/btnSprinkle" />
+
+    <Button
+        android:id="@+id/btnSprinkle"
+        android:layout_width="224dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="100dp"
+        android:background="#F3E7D8"
+        android:text="Sprinkle"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/btnChocolate"
+        app:layout_constraintTop_toBottomOf="@+id/btnPwedges" />
+
+    <TextView
+        android:id="@+id/txtMiscString"
+        android:layout_width="548dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Cheesestick"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCinnamon" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="370dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#055DA0"
+        android:text="Send"
+        android:textSize="42sp"
+        app:layout_constraintStart_toEndOf="@+id/txtMiscString"
+        app:layout_constraintTop_toBottomOf="@+id/btnApplecin" />
+</android.support.constraint.ConstraintLayout>

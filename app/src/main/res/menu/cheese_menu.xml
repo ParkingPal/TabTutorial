@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Nocheese"
+        android:title="NoCheese" />
+    <item android:id="@+id/Xtracheese"
+        android:title="XtraCheese" />
+    <item android:id="@+id/Cheddar"
+        android:title="Cheddar" />
+
+</menu>
