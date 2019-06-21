@@ -18,7 +18,7 @@
         android:layout_marginRight="8dp"
         android:background="#80FFEB3B"
         android:gravity="center"
-        android:text="MISCELLANEOUS"
+        android:text="MISCELLANEOUSs"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
